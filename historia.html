@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/pgn" href="./Imagenes/logo.png">
+    <title>Proyecto-Final</title>
+
+</head>
+<body>
+    <nav>
+        <div class="divisor">
+            <a href="./index.html"><svg>
+                <rect class="cuadrado1" x="50" y="7.5" width="70" height="40" rx="5" id="mon1" fill="#F0E9D2"></rect>
+
+                <rect class="cuadrado2" x="60" y="15" width="50" height="25" rx="5" fill="#495579" ></rect>
+            
+
+                
+                <polygon class="teclado1" points="55 50, 115 50, 125 70, 40 70" fill="#F0E9D2"></polygon>
+
+                <polygon class="teclado2" points="60 52, 110 52, 120 68, 45 68" fill="#495579"></polygon>
+
+            </svg></a>
+
+            
+            <ul>
+                <li><a href="./historia.html" class="boton-menu">HISTORIA</a></li>
+                <li><a href="./juguemos.html" >JUGUEMOS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <img src="./Imagenes/codigo.jpg" alt="codigo de programacion" class="imagen-header">
+
+        <h1>HISTORIA DE LA PROGRAMACION</h1>
+    </header>
+
+    <div class="primer-tarjeta">
+        <h2 class="titulo-historia1">El principio de la historia de la programación</h2>
+        <p class="texto-historia1">El primer lenguaje de programación fue un algoritmo creado por Ada Lovelace en 1883. Ada Lovelace creó este algoritmo para el motor analítico de Charles Babbage. El propósito de este algoritmo era calcular los números de Bernoulli. En 1936, por primera vez, los códigos informáticos fueron especializados por Alonzo Church y Alan Turing. Church expresó el cálculo lambda de forma formulativa.</p>
+    </div>
+
+    <div class="segunda-tarjeta">
+        <p class="texto-historia1">Los primeros ordenadores modernos (alimentados eléctricamente) fueron creados en los años 40. Estas computadoras estaban limitadas en velocidad y capacidad de memoria.
+            Debido a estas limitaciones, los programadores se vieron obligados a escribir manualmente programas en lenguaje ensamblador. Siendo un lenguaje de programación de bajo nivel, era una tarea difícil programarlo manualmente. Los programadores se dieron cuenta entonces de la necesidad de lenguajes de alto nivel para disminuir el esfuerzo que se requería para escribir los programas en lenguaje ensamblador manualmente.
+        </p>
+        <h2 class="titulo-historia1">Los primeros lenguajes de programación</h2>
+        
+    </div>
+
+    <div class="tercer-tarjeta">
+        <h2 class="titulo-historia1">Los primeros lenguajes de programación</h2>
+        <p class="texto-historia1">FORmulaTRANslation es el lenguaje de programación más antiguo y que continúa en uso. Creada por John Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel, matemáticas y estadísticas. A día de hoy, este lenguaje se sigue usando en la industria automovilística, aeroespacial, gubernamental y la investigación. Por ejemplo, es muy útil para el pronóstico de los servicios meteorológicos.
+
+            En 1959 se desarrollo Cobol, que está detrás de la mayoría de los sistemas de transacciones de negocio de los procesos de las tarjetas de crédito, ATMs (Modo de Transferencia Asíncrona), telefonía, sistemas hospitalarios, gobierno, sistemas automatizados y señales de tráfico.
+            El desarrollo de Cobol, creado por Grace Murray Hopper, muestra un lenguaje famipar y uniforme para transacciones empresariales. Por ejemplo, lo usan en el servicio postal estadounidense
+            
+            En 1964 se creo Basic, que fue diseñado como un lenguaje simppficado para aquellos que no tenían como base fuertes conocimientos técnicos o matemáticos.
+            
+            Entre 1969 y 1973 se crea C,a manos de Dennis Ritchie para los laboratorios Bell Telephone para usarlos en el sistema Unix. Se le llamó «C» porque sus características derivaban de un lenguaje anterior llamado «B».
+            
+            En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C al C++, creando lo que muchos consideran el lenguaje de programación más popular que ha existido nunca. Además, ha sido listado en lo alto de los top ten de los lenguajes de programación desde 1986 y archivado en el Hall of Fame en 2003. Hoy en día es usado por Firefox, Office y Adobe PDF Reader
+            Esto dio el puntapie a que se sigan perfeccionando los lenguajes hasta llegar al os lenguajes de hoy en dia</p>
+    </div>
+
+    <article class="caja-video">
+
+            <div class="video-historia">
+                <h2>Un breve video para complementar lo visto
+                </h2>
+            </div>
+            
+            <div class="contenedorVideo">
+                <video  poster="./Imagenes/img-video.jpg" id="video">  
+                        <source src="./Video/historia-Comp.ogv" type="video/ogv"/>
+                        <source src="./Video/historia-Comp.mp4" type="video/mp4"/>
+                </video>
+
+                <div class="barra" >
+                    <div class="botones">
+                            <button class="botonVideo" onclick="playVideo()"><img src="./Imagenes/play.svg" alt="inicio de video"></button>
+                        
+                        <button class="botonVideo" onclick="pausaVideo()"><img src="./Imagenes/pausa.svg" alt="pausa video"></button>
+                    
+
+                </div>      
+                    <p id="duracion">Duracion video: <span id="minutos"></span>:<span id="segundos"></span></p>                   
+                  
+            </div> 
+
+    </article>    
+
+    <footer>
+
+        <div class="footer-izquierda">
+            <img src="./Imagenes/logo.png" alt="logo de la web" class="img-footer">
+            <h3 class="titulo.-footer">PROGRAMACION <span>E</span> <span>HISTORIA</span></h3>
+        </div>
+
+        <div class="footer-derecha">
+            Sitio con fines educativos - Creado por German Inacio
+        </div>
+
+    </footer>
+
+    <script src="./video.js"></script>
+    
+</body>
+</html>

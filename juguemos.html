@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/pgn" href="./Imagenes/logo.png">
+    <title>Trabajo-Final</title>
+</head>
+<body>
+    <nav>
+        <div class="divisor">
+            <a href="./index.html"><svg>
+                <rect  class="cuadrado1" x="50" y="7.5" width="70" height="40" rx="5" id="mon1" fill="#F0E9D2"></rect>
+
+                <rect class="cuadrado2" x="60" y="15" width="50" height="25" rx="5" fill="#495579" ></rect>
+            
+                <polygon  class="teclado1" points="55 50, 115 50, 125 70, 40 70" fill="#F0E9D2"></polygon>
+
+                <polygon  class="teclado2" points="60 52, 110 52, 120 68, 45 68" fill="#495579"></polygon>
+
+            </svg></a>
+
+            
+            <ul>
+                <li><a href="./historia.html" class="boton-menu">HISTORIA</a></li>
+                <li><a href="./juguemos.html" >JUGUEMOS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img src="./Imagenes/codigo.jpg" alt="codigo de programacion" class="imagen-header">
+
+        <h1 class="titulo-principal">JUGUEMOS UN POCO</h1>
+    </header>
+
+    <main class="main-juguemos">
+        <h2 class="titulo-jugemos">Armemos el rompecabezas y veamos que imagen es...
+        </h2>
+    </main> 
+        <div class="contenedorDestino">
+
+            <div class="destinos" id="primerDestino"><p>Arrastre y suelte la imagen aqui 1111</p></div>
+
+            <div class="destinos" id="segundoDestino"><p>Arrastre y suelte la imagen aqui 2</p></div>
+
+            <div class="destinos" id="tercerDestino"><p>Arrastre y suelte la imagen aqui 3</p></div>
+
+        </div>
+
+        <div class="caja-imagenes">
+            
+                <div class="cajasRompe primerCaja">
+                    <img id="primerImagen" src="./Imagenes/rompe3.png" alt="primer pieza rompecabezas" class="imagenes-rompe primerImagen" >
+                </div>
+
+                <div class="cajasRompe segundaCaja">
+                    <img id="segundaImagen" src="./Imagenes/rompe2.png" alt="segunda pieza rompecabezas" class="imagenes-rompe">
+                </div> 
+
+                <div class="cajasRompe tercerCaja" >
+                    
+                    <img id="tercerImagen" src="./Imagenes/rompe1.png" alt="tercer imagen rompecabezas" class="imagenes-rompe ">
+                </div>    
+            
+        </div>
+
+      
+
+        <section class="boton-rompe">
+            <a href="./juguemos.html"><button class="boton-reiniciar">Reiniciar</button></a>
+        </section>
+
+        <footer>
+
+            <div class="footer-izquierda">
+                <img src="./Imagenes/logo.png" alt="logo de la web" class="img-footer">
+                <h3 class="titulo.-footer">PROGRAMACION <span>E</span> <span>HISTORIA</span></h3>
+            </div>
+    
+            <div class="footer-derecha">
+                Sitio con fines educativos - Creado por German Inacio
+            </div>
+         
+        </footer>
+
+        
+    <script src="./juguemos.js"></script>
+</body>
+</html>
